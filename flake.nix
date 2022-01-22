@@ -16,7 +16,7 @@
 
       overlay = final: prev: {
         commonStyles = prev.pkgs.stdenv.mkDerivation {
-          name = "nixos-common-styles-${self.lastModifiedDate}";
+          name = "nixos-common-styles";
 
           src = self;
 
